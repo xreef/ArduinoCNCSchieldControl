@@ -1,15 +1,19 @@
 # ArduinoCNCSchieldControl
 A simple program to control CNC Shield to calculate step per millimeter and move/test on axis.
 
+```
 <axis> 		= x, y, z
 <status> 	= 1 (activate), 0 (deactivate)
 <direction> 	= 1 (invert direction), 0 (normal direction)
 <speed> 		= impulse delay in microsenconds
+```
 
 Commands:
+```
 g,<axis>,<status> 		--> Example: g,x,1 (start x movement)
 d,<axis>,<direction> 	--> Example: d,x,1 (set direction to inverse)
 v,<axis>,<speed> 		--> Example: v,x,2000000 (set delay step to 2000000 microseconds)
+```
 
 Usage, 
  - position the spindle to the edge (<g,x,1>, when you are near the edge <g,x,0>) 
