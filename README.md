@@ -1,9 +1,10 @@
-# ArduinoCNCSchieldControl
+# Arduino CNC Schield Control
 A simple program to control CNC Shield to calculate step per millimeter and move/test on axis.
+I used this program to calculate step/mm.
 
 ```
-<axis> 		= x, y, z
-<status> 	= 1 (activate), 0 (deactivate)
+<axis> 			= x, y, z
+<status> 		= 1 (activate), 0 (deactivate)
 <direction> 	= 1 (invert direction), 0 (normal direction)
 <speed> 		= impulse delay in microsenconds
 ```
