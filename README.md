@@ -2,6 +2,9 @@
 A simple program to control CNC Shield to calculate step per millimeter and move/test on axis.
 I used this program to calculate step/mm.
 
+The my Cyclone PCB Factory project is described here 
+https://www.instructables.com/id/Cyclone-PCB-Factory-My-Way-Step-by-Step/
+
 ```
 <axis> 			= x, y, z
 <status> 		= 1 (activate), 0 (deactivate)
