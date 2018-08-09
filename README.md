@@ -16,6 +16,11 @@ d,<axis>,<direction> 	--> Example: d,x,1 (set direction to inverse)
 v,<axis>,<speed> 		--> Example: v,x,2000000 (set delay step to 2000000 microseconds)
 ```
 
+Basic,
+ - upload the sketch
+ - connect via serial at 9600 baudrate
+ - now you can send command via serial interface.
+
 Usage, 
  - position the spindle to the edge (<g,x,1>, when you are near the edge <g,x,0>) 
  - then copy step number (ES: 2345678) and mark the position of splindle (ES: 23mm from edge)
